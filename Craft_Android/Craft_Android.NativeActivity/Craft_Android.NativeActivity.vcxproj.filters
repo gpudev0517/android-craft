@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="android_native_app_glue.h" />
+    <ClInclude Include="sqlite\sqlite3.h">
+      <Filter>sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite\sqlite3ext.h">
+      <Filter>sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="lodepng\lodepng.h">
+      <Filter>lodepng</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\noise.h">
+      <Filter>noise</Filter>
+    </ClInclude>
+    <ClInclude Include="tinycthread\tinycthread.h">
+      <Filter>tinythread</Filter>
+    </ClInclude>
+    <ClInclude Include="craft\config.h">
+      <Filter>craft</Filter>
+    </ClInclude>
+    <ClInclude Include="craft\cube.h">
+      <Filter>craft</Filter>
+    </ClInclude>
+    <ClInclude Include="craft\db.h">
+      <Filter>craft</Filter>
+    </ClInclude>
+    <ClInclude Include="craft\item.h">
+      <Filter>craft</Filter>
+    </ClInclude>
+    <ClInclude Include="craft\map.h">
+      <Filter>craft</Filter>
+    </ClInclude>
+    <ClInclude Include="craft\matrix.h">
+      <Filter>craft</Filter>
+    </ClInclude>
+    <ClInclude Include="craft\ring.h">
+      <Filter>craft</Filter>
+    </ClInclude>
+    <ClInclude Include="craft\sign.h">
+      <Filter>craft</Filter>
+    </ClInclude>
+    <ClInclude Include="craft\util.h">
+      <Filter>craft</Filter>
+    </ClInclude>
+    <ClInclude Include="craft\world.h">
+      <Filter>craft</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="android_native_app_glue.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="sqlite\shell.c">
+      <Filter>sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite\sqlite3.c">
+      <Filter>sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="lodepng\lodepng.c">
+      <Filter>lodepng</Filter>
+    </ClCompile>
+    <ClCompile Include="noise\noise.c">
+      <Filter>noise</Filter>
+    </ClCompile>
+    <ClCompile Include="tinycthread\tinycthread.c">
+      <Filter>tinythread</Filter>
+    </ClCompile>
+    <ClCompile Include="craft\cube.c">
+      <Filter>craft</Filter>
+    </ClCompile>
+    <ClCompile Include="craft\db.c">
+      <Filter>craft</Filter>
+    </ClCompile>
+    <ClCompile Include="craft\item.c">
+      <Filter>craft</Filter>
+    </ClCompile>
+    <ClCompile Include="craft\map.c">
+      <Filter>craft</Filter>
+    </ClCompile>
+    <ClCompile Include="craft\matrix.c">
+      <Filter>craft</Filter>
+    </ClCompile>
+    <ClCompile Include="craft\ring.c">
+      <Filter>craft</Filter>
+    </ClCompile>
+    <ClCompile Include="craft\sign.c">
+      <Filter>craft</Filter>
+    </ClCompile>
+    <ClCompile Include="craft\util.c">
+      <Filter>craft</Filter>
+    </ClCompile>
+    <ClCompile Include="craft\world.c">
+      <Filter>craft</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="sqlite">
+      <UniqueIdentifier>{9494ad7f-fd7a-4aa8-84cb-8eb32e4570be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lodepng">
+      <UniqueIdentifier>{8634bc31-553f-443c-9f47-3348d1b319e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="noise">
+      <UniqueIdentifier>{2d14fbaa-abd7-4dc7-949c-fa01e66dd7d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tinythread">
+      <UniqueIdentifier>{36f68c1f-7b87-49b5-876b-83e6f68752f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="craft">
+      <UniqueIdentifier>{451b5052-6390-4dd3-88cd-4ef60608936f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
